@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "747541003489",
+    "firebase_url": "https://pwakun-247c7.firebaseio.com",
+    "project_id": "pwakun-247c7",
+    "storage_bucket": "pwakun-247c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747541003489:android:ab3cb41b525bb7c8314ba0",
+        "android_client_info": {
+          "package_name": "com.firebaseapp.authenthpfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747541003489-r4v22kr4km5tooemkptsdksqjme7ikdb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi86sOk1jgIOaBliDc6lq1fRac6o3wX14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747541003489-r4v22kr4km5tooemkptsdksqjme7ikdb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

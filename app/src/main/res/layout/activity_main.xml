@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/field_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/field_verification_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/field_phone_number"
+        app:layout_constraintStart_toStartOf="@+id/field_phone_number"
+        app:layout_constraintTop_toBottomOf="@+id/field_phone_number" />
+
+    <Button
+        android:id="@+id/button_start_verification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:text="SVerify"
+        app:layout_constraintEnd_toStartOf="@+id/button_verify_phone"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/field_verification_code" />
+
+    <Button
+        android:id="@+id/button_verify_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="verify"
+        app:layout_constraintEnd_toEndOf="@+id/field_verification_code"
+        app:layout_constraintEnd_toStartOf="@+id/button_resend"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_start_verification"
+        app:layout_constraintTop_toBottomOf="@+id/field_verification_code" />
+
+    <Button
+        android:id="@+id/button_resend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="resend"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_verify_phone"
+        app:layout_constraintTop_toBottomOf="@+id/field_verification_code" />
+</androidx.constraintlayout.widget.ConstraintLayout>
